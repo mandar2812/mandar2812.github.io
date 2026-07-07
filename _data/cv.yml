@@ -1,103 +1,166 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Mandar Hemant Chandorkar
-    - name: Date of Birth
-      value: 28th December 1989
-    - name: Languages
-      value: English, Marathi, Hindi
+cv:
+  name: Mandar Hemant Chandorkar
+  label: Data Scientist - Machine Learning
+  email: mandar2812@gmail.com
+  location: Amsterdam, the Netherlands
+  image: ""
+  summary: Data scientist and machine learning researcher with expertise in probabilistic forecasting, Gaussian processes, deep learning, and MLOps. PhD in Applied Physics with a focus on Machine Learning in Space Weather.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Data Scientist - Machine Learning
-      institution: Connecterra B.V.
-      year: 2019-current 
-      description:
-        - title: Product Development
-          contents:
-            - Actionable and reliable health alerts for dairy herds.
-            - Adapting of smart fertility alerts for new markets.
-        - title: Platform Development
-          contents:
-            - Built customised ML experimentation platform.
-            - Large scale model evaluation pipelines for revelant KPIs.
-        - title: Edge Deployments / IoT
-          contents:
-            - Quantisation of ML models for power savings on sensor deployments.
-        - title: MLOps
-          contents:
-            - Running ML models as real-time asynchronous microservices.
-            - Model deployment to using Docker and Kubernetes.
-    - title: Researcher
-      institution: Centrum Wiskunde en Informatica, Amsterdam, the Netherlands
-      year: 2015-2019
-      description:
-        - Developed a novel neural network approach for predicting speed and arrival time of solar wind.
-        - State of the art probabilistic forecasts of geomagnetism by combining GP and LSTM models.
-        - Uncertainty Quantification of radiation belt physics using Gaussian Process methodology.
-        - Developed an open source computational toolbox for ML applications in Space Weather.
-    - title: Software Engineer - Data Engineering
-      institution: Perk.com, Bangalore, India
-      year: 2012-2014
-      description:
-        - Built reporting dashboards for monitoring product metrics.
-        - Hadoop pipelines for aggregating usage data.
+  social_networks:
+    - network: GitHub
+      username: mandar2812
+    - network: LinkedIn
+      username: mandar-chandorkar
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD - Applied Physics
-      institution: Technische Universiteit Eindhoven, the Netherlands
-      year: 2014-2019
-      description:
-        - title: Machine Learning in Space Weather
-          contents:
-            - Probabilistic forecasting
-            - Bayesian parameter identification.
-            - Uncertainty identification.
-    - title: Master of Science - Artificial Intelligence
-      institution: Katholieke Universiteit Leuven, Leuven, Belgium
-      year: 2014-2015
-      description:
-          - "Thesis: Large scale implementation of the FS-LSSVM model for classification in Scala."
+  address:
+    street: ""
+    city: Amsterdam
+    region: North Holland
+    postalCode: ""
+    countryCode: NL
+
+  sections:
+    Education:
+      - institution: Technische Universiteit Eindhoven
+        location: Eindhoven, the Netherlands
+        url: https://www.tue.nl/
+        area: Applied Physics
+        studyType: PhD
+        start_date: 2014
+        end_date: 2019
+        score: ""
+        courses: "Machine Learning in Space Weather"
+        highlights:
+          - Probabilistic forecasting
+          - Bayesian parameter identification
+          - Uncertainty quantification
+
+      - institution: Katholieke Universiteit Leuven
+        location: Leuven, Belgium
+        area: Artificial Intelligence
+        studyType: Master of Science
+        start_date: 2014
+        end_date: 2015
+        highlights:
+          - "Thesis: Large scale implementation of the FS-LSSVM model for classification in Scala"
           - Gaussian Processes and Least Squares SVM
           - Neural Networks
           - Computer Vision
-          - Logic Programming.
-    - title: Master of Technology - Industrial Engineering
-      institution: Indian Institute of Technology Kharagpur, India
-      year: 2011-2012
-      description:
-        - "Thesis: Combinatorial optimization of manufacturing assembly lines."
-    - title: Bachelor of Technology - Manufacturing Science
-      institution: Indian Institute of Technology Kharagpur, India
-      year: 2007-2011
-      description:
-        - "Thesis: Modelling of coupled vibrations of storage tank - fluid systems."
+          - Logic Programming
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/tailhq/DynaML">DynaML</a>
-      year: 2014-2019
-      description: A Scala environment REPL for Machine Learning.
-    - title: <a href="https://github.com/tailhq/PlasmaML">PlasmaML</a>
-      year: 2014-2019
-      description: Machine Learning tools for Plasma and Space Physics.
+      - institution: Indian Institute of Technology Kharagpur
+        location: Kharagpur, India
+        area: Industrial Engineering
+        studyType: Master of Technology
+        start_date: 2011
+        end_date: 2012
+        highlights:
+          - "Thesis: Combinatorial optimization of manufacturing assembly lines"
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Applied Mathematics
-      items: 
-        - Physical systems.
-        - Bayesian Inference.
-        - Stochastic Processes.
-    - title: Machine Learning.
-      items:
-        - Time-series models.
-        - Gaussian Processes.
-        - Deep Neural Networks.
+      - institution: Indian Institute of Technology Kharagpur
+        location: Kharagpur, India
+        area: Manufacturing Science
+        studyType: Bachelor of Technology
+        start_date: 2007
+        end_date: 2011
+        highlights:
+          - "Thesis: Modelling of coupled vibrations of storage tank - fluid systems"
 
+    Experience:
+      - company: Connecterra B.V.
+        position: Data Scientist - Machine Learning
+        location: Amsterdam, the Netherlands
+        start_date: 2019
+        end_date: 2025
+        summary: Working on machine learning solutions for dairy herd management, including health alerts, fertility prediction, and edge deployments.
+        highlights:
+          - Actionable and reliable health alerts for dairy herds
+          - Adapting smart fertility alerts for new markets
+          - Built customised ML experimentation platform
+          - Large scale model evaluation pipelines for relevant KPIs
+          - Quantisation of ML models for power savings on sensor deployments
+          - Running ML models as real-time asynchronous microservices
+          - Model deployment using Docker and Kubernetes
+
+      - company: Centrum Wiskunde en Informatica
+        position: Researcher
+        location: Amsterdam, the Netherlands
+        start_date: 2015
+        end_date: 2019
+        summary: Research on machine learning methods for space weather forecasting and geomagnetic field modeling.
+        highlights:
+          - Developed a novel neural network approach for predicting speed and arrival time of solar wind
+          - State of the art probabilistic forecasts of geomagnetism by combining GP and LSTM models
+          - Uncertainty Quantification of radiation belt physics using Gaussian Process methodology
+          - Developed an open source computational toolbox for ML applications in Space Weather
+
+      - company: Perk.com
+        position: Software Engineer - Data Engineering
+        location: Bangalore, India
+        start_date: 2012
+        end_date: 2014
+        highlights:
+          - Built reporting dashboards for monitoring product metrics
+          - Hadoop pipelines for aggregating usage data
+
+    Volunteer: []
+
+    Awards: []
+
+    Publications:
+      - title: "DynaML: A Scala environment for machine learning"
+        authors:
+          - Mandar Chandorkar
+        publisher: GitHub
+        releaseDate: 2014
+        url: https://github.com/tailhq/DynaML
+        summary: A Scala environment REPL for Machine Learning
+
+      - title: "PlasmaML: Machine Learning tools for Plasma and Space Physics"
+        authors:
+          - Mandar Chandorkar
+        publisher: GitHub
+        releaseDate: 2014
+        url: https://github.com/tailhq/PlasmaML
+        summary: Machine Learning tools for Plasma and Space Physics
+
+    Skills:
+      - name: Machine Learning
+        level: Expert
+        icon: fa-solid fa-hashtag
+        keywords: "Gaussian Processes, Deep Neural Networks, Time-series Models, Probabilistic Forecasting, Bayesian Inference"
+
+      - name: MLOps
+        level: Advanced
+        icon: fa-solid fa-hashtag
+        keywords: "Docker, Kubernetes, Microservices, Model Deployment, Experimentation Platforms"
+
+      - name: Programming
+        level: Expert
+        icon: fa-solid fa-hashtag
+        keywords: "Scala, Python, Java, SQL"
+
+    Languages:
+      - name: English
+        summary: "Fluent"
+
+      - name: Marathi
+        summary: "Native speaker"
+
+      - name: Hindi
+        summary: "Fluent"
+
+    Interests:
+      - name: Applied Mathematics
+        icon: fa-solid fa-tag
+        keywords: "Physical Systems, Bayesian Inference, Stochastic Processes"
+
+      - name: Machine Learning
+        icon: fa-solid fa-tag
+        keywords: "Time-series Models, Gaussian Processes, Deep Neural Networks"
+
+    Certificates: []
+
+    Projects: []
+
+    References: []
